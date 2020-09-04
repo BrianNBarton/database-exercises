@@ -1,0 +1,5 @@
+USE codeup_test_db;
+
+CREATE TABLE IF NOT EXISTS albums;
+
+CREATE TABLE IF NOT EXISTS nonsense;

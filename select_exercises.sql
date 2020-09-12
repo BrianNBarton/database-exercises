@@ -2,14 +2,14 @@ USE codeup_test_db;
 
 select 'The name of all albums by Pink Floyd.' AS 'Exercise 1';
 
-select * from albums where artist = 'Pink Floyd';
-
-select release_date from albums where name = 'Sgt. Pepper''s Lonely Hearts Club Band';
+SELECT * FROM albums WHERE artist = 'Pink Floyd';
+SELECT release_date FROM albums WHERE NAME = 'Sgt. Pepper''s Lonely Hearts Club Band';
 
 SELECT genre FROM albums
-WHERE `name` = "Nevermind";
+WHERE 'name' = "Nevermind";
 
-SELECT `name` FROM albums
+SELECT 'name' FROM albums
+
 WHERE release_date BETWEEN 1990 AND 1999;
 
 SELECT `name` FROM albums
